@@ -292,13 +292,13 @@ a { text-decoration: none; color: inherit; }
 .aw-header-right { display: flex; align-items: center; gap: 14px; }
 .aw-status { display: flex; align-items: center; gap: 5px; font-size: 11px; color: #10b981; font-weight: 700; }
 .aw-status-dot { width: 8px; height: 8px; background: #10b981; border-radius: 50%; box-shadow: 0 0 0 3px rgba(16,185,129,.18); }
-.aw-task-mgr { font-size: 12px; color: #FF6A00; cursor: pointer; }
+.aw-task-mgr { font-size: 12px; color: #666; cursor: pointer; }
 .aw-close { cursor: pointer; font-size: 18px; color: #999; text-decoration: none; }
 
 /* 记忆条 */
-.memory-bar { display: flex; align-items: center; gap: 8px; padding: 8px 20px; background: #fff8f2; border-bottom: 1px solid #ffe8d4; font-size: 11px; color: #6b7280; flex-shrink: 0; }
-.memory-bar .mtag { background: #fff0e0; color: #FF6A00; font-weight: 700; padding: 2px 7px; border-radius: 4px; font-size: 10px; }
-.memory-bar .mlink { margin-left: auto; color: #FF6A00; cursor: pointer; font-weight: 700; }
+.memory-bar { display: flex; align-items: center; gap: 8px; padding: 8px 20px; background: #f9f9f9; border-bottom: 1px solid #ebebeb; font-size: 11px; color: #6b7280; flex-shrink: 0; }
+.memory-bar .mtag { background: #f0f0f0; color: #555; font-weight: 700; padding: 2px 7px; border-radius: 4px; font-size: 10px; }
+.memory-bar .mlink { margin-left: auto; color: #666; cursor: pointer; font-weight: 700; }
 .memory-bar .mlink:hover { text-decoration: underline; }
 
 /* ===== 记忆抽屉 ===== */
@@ -391,25 +391,25 @@ a { text-decoration: none; color: inherit; }
 .input-section { padding: 10px 20px 14px; border-top: 1px solid #ebebeb; position: relative; flex-shrink: 0; }
 .quick-agents { display: flex; align-items: center; gap: 4px; margin-bottom: 8px; flex-wrap: nowrap; }
 .quick-agents .lab { font-size: 10px; color: #9ca3af; white-space: nowrap; }
-.qa-chip { display: inline-flex; align-items: center; gap: 3px; font-size: 10px; color: #FF6A00; background: #fff4eb; border: 1px solid #ffd4a8; padding: 2px 6px; border-radius: 12px; cursor: pointer; white-space: nowrap; }
-.qa-chip:hover { background: #ffe8d4; }
+.qa-chip { display: inline-flex; align-items: center; gap: 3px; font-size: 10px; color: #555; background: #f5f5f5; border: 1px solid #e0e0e0; padding: 2px 6px; border-radius: 12px; cursor: pointer; white-space: nowrap; }
+.qa-chip:hover { background: #ebebeb; }
 .qa-chip .dot { width: 5px; height: 5px; border-radius: 50%; background: #10b981; }
-.input-box { border: 1.5px solid #FF6A00; border-radius: 12px; padding: 8px 10px 8px 12px; }
+.input-box { border: 1.5px solid #d0d0d0; border-radius: 12px; padding: 8px 10px 8px 12px; }
 .sel-chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 6px; }
 .sel-chips:empty { display: none; margin: 0; }
-.sel-chip { display: inline-flex; align-items: center; gap: 5px; font-size: 11px; font-weight: 700; color: #FF6A00; background: #fff4eb; border: 1px solid #ffd4a8; padding: 3px 6px 3px 9px; border-radius: 12px; }
-.sel-chip .x { cursor: pointer; color: #ffb070; font-weight: 700; font-size: 13px; line-height: 1; }
-.sel-chip .x:hover { color: #FF6A00; }
+.sel-chip { display: inline-flex; align-items: center; gap: 5px; font-size: 11px; font-weight: 700; color: #555; background: #f5f5f5; border: 1px solid #d0d0d0; padding: 3px 6px 3px 9px; border-radius: 12px; }
+.sel-chip .x { cursor: pointer; color: #999; font-weight: 700; font-size: 13px; line-height: 1; }
+.sel-chip .x:hover { color: #333; }
 .input-row { display: flex; align-items: center; gap: 8px; }
 .toggle-wrap { display: flex; align-items: center; gap: 4px; flex-shrink: 0; }
-.toggle { width: 30px; height: 17px; background: #FF6A00; border-radius: 9px; padding: 2px; cursor: pointer; display: flex; align-items: center; }
+.toggle { width: 30px; height: 17px; background: #999; border-radius: 9px; padding: 2px; cursor: pointer; display: flex; align-items: center; }
 .toggle .dot { width: 13px; height: 13px; border-radius: 50%; background: #fff; margin-left: 13px; transition: margin .2s; }
 .toggle-label { font-size: 11px; color: #666; }
 .input-field { flex: 1; border: none; outline: none; font-size: 13px; color: #1a1a1a; background: transparent; font-family: inherit; }
-.send-btn { width: 28px; height: 28px; border-radius: 50%; background: #FF6A00; border: none; cursor: pointer; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
-.plus-btn { width: 28px; height: 28px; border-radius: 8px; background: #fff4eb; border: 1px solid #ffd4a8; color: #FF6A00; cursor: pointer; display: flex; align-items: center; justify-content: center; flex-shrink: 0; font-size: 18px; line-height: 1; transition: background .15s; }
-.plus-btn:hover { background: #ffe8d4; }
-.plus-btn.on { background: #FF6A00; color: #fff; border-color: #FF6A00; }
+.send-btn { width: 28px; height: 28px; border-radius: 50%; background: #1a1a1a; border: none; cursor: pointer; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.plus-btn { width: 28px; height: 28px; border-radius: 8px; background: #f5f5f5; border: 1px solid #d0d0d0; color: #666; cursor: pointer; display: flex; align-items: center; justify-content: center; flex-shrink: 0; font-size: 18px; line-height: 1; transition: background .15s; }
+.plus-btn:hover { background: #ebebeb; }
+.plus-btn.on { background: #1a1a1a; color: #fff; border-color: #1a1a1a; }
 .footer-text { text-align: center; margin-top: 6px; font-size: 10px; color: #bbb; }
 
 /* @ 下拉 */
